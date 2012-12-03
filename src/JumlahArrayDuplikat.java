@@ -1,4 +1,3 @@
-
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Collections;
@@ -18,7 +17,7 @@ public class JumlahArrayDuplikat {
         int jumlah = Integer.parseInt(JOptionPane.showInputDialog("Masukan jumlah :"));
         //Scanner jumlah = new Scanner(System.in);
         Scanner input = new Scanner(System.in);
-        List<String> list = new ArrayList<String>();
+        List<String> list = new ArrayList<String>(); //begosia
         for (int i=0; i<jumlah; i++){
             System.out.println("Buah ke " + i +" : ");
             list.add(input.next().toLowerCase());              
